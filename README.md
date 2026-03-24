@@ -39,4 +39,4 @@ Projeto desenvolvido para portfólio, com foco em oportunidades na área de tecn
 
 -> Autora
 
-Taynaci
+Tayná Ciribelle
