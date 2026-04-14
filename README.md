@@ -1,42 +1,78 @@
-      Sistema de Pedidos Delivery (Banco de Dados)
+- Projeto Delivery SQL
+- Sobre o projeto
 
--> Sobre o projeto
+Este projeto simula o banco de dados de um sistema de delivery, com foco no controle de clientes, produtos, pedidos e entregas.
 
-Desenvolvi este projeto com o objetivo de praticar modelagem de banco de dados e consultas SQL, simulando um sistema de pedidos de delivery.
+O objetivo é praticar modelagem de banco de dados relacional e comandos SQL (CRUD), simulando um cenário real de operação de um serviço de delivery.
 
--> Tecnologias utilizadas
+-- Objetivo
+Praticar modelagem de banco de dados relacional
+Aplicar comandos SQL (INSERT, SELECT, UPDATE, DELETE)
+Simular um sistema real de pedidos de delivery
+Treinar lógica de organização de dados para sistemas comerciais
+-- Funcionalidades do banco
 
-* MySQL / MariaDB (XAMPP)
-* SQL
+O sistema contempla as seguintes entidades:
 
--> Estrutura do banco
+- Clientes
+- Produtos
+- Pedidos
+- Entregas
 
-O banco foi organizado com as seguintes tabelas:
+Com operações como:
 
-* clientes
-* produtos
-* pedidos
-* itens_pedido
+Cadastro de clientes
+Registro de produtos
+Criação de pedidos
+Associação de produtos ao pedido
+Controle de status de entrega
 
--> Funcionalidades
 
-* Cadastro de clientes e produtos
-* Registro de pedidos
-* Relacionamento entre tabelas usando chave estrangeira
-* Consulta de dados com JOIN
-* Cálculo do valor total dos pedidos
+-- Estrutura do banco de dados
 
--> O que aprendi com esse projeto
+O projeto foi estruturado com tabelas relacionais, incluindo:
 
-* Criar tabelas com chave primária e estrangeira
-* Trabalhar com relacionamentos entre tabelas
-* Utilizar JOIN para combinar dados
-* Utilizar GROUP BY e funções de agregação
+clientes
+produtos
+pedidos
+itens_pedido
+entregas
 
--> Objetivo
 
-Projeto desenvolvido para portfólio, com foco em oportunidades na área de tecnologia, especialmente banco de dados e desenvolvimento.
+-- Tecnologias utilizadas
+SQL (MySQL ou similar)
+Modelagem de banco de dados relacional
 
--> Autora
+-- Exemplo de uso
 
-Tayná Ciribelle
+Exemplo de fluxo simulado:
+
+Cliente é cadastrado no sistema
+Produtos são registrados
+Pedido é criado pelo cliente
+Produtos são adicionados ao pedido
+Entrega é registrada e acompanhada
+ Como executar o projeto
+Abra seu gerenciador de banco de dados (MySQL Workbench, DBeaver, etc.)
+Execute o script SQL do projeto
+O banco será criado com todas as tabelas e relacionamentos
+Realize testes com inserts e selects
+
+
+-- Aprendizados
+
+Este projeto ajudou a desenvolver:
+
+Lógica de banco de dados relacional
+Organização de dados em sistemas reais
+Estruturação de queries SQL
+Pensamento de modelagem de sistemas
+
+-- Autora
+
+Desenvolvido por Tayná Ciribelle
+Projeto para portfólio e prática de SQL e modelagem de dados.
+
+-- Observação
+
+Este é um projeto de estudo, com foco em prática de banco de dados e simulação de um sistema real de delivery.
